@@ -3,7 +3,7 @@ layout: post
 title:  "Cookies vs. Tokens for SPAs"
 date:   2015-08-08 19:40
 categories: mediator
-tags: featured
+tags: authentication
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 ---
 

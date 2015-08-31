@@ -3,7 +3,7 @@ layout: post
 title:  "Brief Neural Network Introduction"
 date:   2015-08-29 16:40
 categories: mediator
-tags: featured
+tags: neural networks
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 ---
 
