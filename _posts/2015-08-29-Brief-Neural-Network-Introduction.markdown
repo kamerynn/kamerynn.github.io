@@ -13,6 +13,19 @@ I got really lucky. The idea actually turned out to be possible using neural net
 
 # Overview
 
-Neural networks, from the outside, are sort of like a black box: you hand it inputs, and it spits out an output (or outputs). For this example, I'm going to focus on a simple neural network that uses training data in order to operate (the technical term is a _supervised feed-forward network_) There are a few things that make this kind of network special:
-- It trains itself based on data that you supply it. For example, if you hand it a certain input and output, it will adjust its inner-workings to try and produce that output when the same input is handed to the network later on.
-- This allows the network to _predict_ what the output should be for inputs that aren't defined.
+Neural networks, from the outside, are sort of like a black box: you hand it inputs, and it spits out an output (or outputs). For this example, I'm going to focus on a simple neural network that uses training data in order to operate (the technical term is a _supervised feed-forward network_).
+
+There are a few things that make this kind of network special:
+
+* It trains itself based on data that you supply it.
+* This allows the network to _predict_ what the output should be for inputs that aren't defined.
+
+The _training_ process simply involves adjusting weights inside of the neural network. These weights help process the inputs to match close to what the expected output should be. There's a lot of different ways to do this, but a very simple way is to use _gradient descent_, which the NN library of your choice will likely implement for you.
+
+This alone is friggin awesome. We can hand it inputs that we haven't explicitly defined and it will use the training data we've supplied it to predict what the output should be. Compare this to a hash table. If you try to retrieve a value for a key that is undefined, you're out of luck.
+
+Neural networks have a wide range of use cases and implementations, much broader than this post illustrates. A few resources to check out if you're curious:
+
+http://karpathy.github.io/neuralnets/
+http://www.heatonresearch.com/content/non-mathematical-introduction-using-neural-networks
+http://neuralnetworksanddeeplearning.com/
